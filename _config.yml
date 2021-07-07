@@ -11,34 +11,52 @@ style:
 
 ########## 关于主页的设置 ##########
 # icon
-icon:  #标签页图标
+icon: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/NewTux.svg/1000px-NewTux.svg.png #标签页图标
 #  header
-site_name: white.
+site_name: Sorry My World.
 
 menu:
   HOME: /
   BLOG: /archives
+  TIME: http://p.timepill.net/
+  FRIENDS: /link
+  TO ME: /To-Me
+  MOOD: /essay
+  TRAVELLINGS: https://travellings.now.sh/
 
 ## 本地搜索
 search:
-  open: false # 是否开启
+  open: true # 是否开启
   page: /search # 在上面页面上（通常命名为search）
   
 
 
 # 自我介绍
 intro:
-  title: Hi.I'm White.
-  sub: 'A [White](https://github.com/FuShaoLei/hexo-theme-white) theme for [Hexo](http://hexo.io/)' # markdown语法
-  avator: https://cdn.jsdelivr.net/gh/fushaolei/img/20200524104925.jpg #头像 暂时还没用到
-  author: white #所有文章的默认作者
+  title: Hi.I'm Yangyang.
+  sub: '[Operation and Maintenance Engineer]()' # markdown语法
+  avator: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/NewTux.svg/1000px-NewTux.svg.png #头像 暂时还没用到
+  author: Yangyang #所有文章的默认作者
 
 #联系方式  
 #更多图标：https://remixicon.com/
 contact:
-  Github:
-    - https://github.com/FuShaoLei/hexo-theme-white
+  Music:
+    - https://music.163.com/#/discover/toplist?id=19723756
+    - ri-disc-line
+  Bilibili:
+    - https://www.bilibili.com/?spm_id_from=333.337.b_696e7465726e6174696f6e616c486561646572.1
+    - ri-bilibili-line
+  Email:
+    - mailto:1771566679@qq.com
+    - ri-mail-line
+  GitHub:
+    - https://github.com/Linux-yangyang
     - ri-github-line
+  CSDN:
+    - https://blog.csdn.net/yy150122
+    - ri-pen-nib-line
+
 
 
 ########## 关于文章的设置 ##########
@@ -59,9 +77,9 @@ plugins:
 # 评论系统设置
 comments:
   valine:
-    open: false # true | false 是否打开
-    appid: #Leancloud应用的AppID  这里和下面的要换成你自己的啊QAQ
-    appkey: #Leancloud应用的AppKey
+    open: true # true | false 是否打开
+    appid: VGzYQ2vUvXBqHjPejmlg5YiB-gzGzoHsz #Leancloud应用的AppID  这里和下面的要换成你自己的啊QAQ
+    appkey: DP7BuydUbzdbzwBC11Rcp5N6 #Leancloud应用的AppKey
     verify: false #验证码
     notify: true #评论回复提醒
     avatar: robohash #评论列表头像样式：''/mm/identicon/monsterid/wavatar/retro/hide
@@ -69,18 +87,16 @@ comments:
     placeholder: 留下你来过的痕迹~ #评论框占位符
   gitalk:
     open: false # true | false 是否打开
-    owner:  #Github 用户名,
-    repo:  #储存评论issue的github仓库名
-    admin:  #Github 用户名
-    clientID:  #`Github Application clientID`
-    clientSecret: #`Github Application clientSecret`
+    owner: Linux-yangyang  #Github 用户名,
+    repo: blog-gitalk #储存评论issue的github仓库名
+    admin: Linux-yangyang #Github 用户名
+    clientID: 1fcfa2974e7aa23cf199 #`Github Application clientID`
+    clientSecret: 3f31281ae565a00ab6e3e4adeee7a4ceaeb48e06 #`Github Application clientSecret`
   
-
+snow: true
 
 
 ############## 其他 ##############
 
 # 页脚
-footer: Power by [Hexo](http://hexo.io/) Theme by [White](https://github.com/FuShaoLei/hexo-theme-white) # markdown语法
-
-
+footer: The door to the new world [DOOR](ftp://yangyang.host/) # markdown语法
